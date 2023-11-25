@@ -84,52 +84,95 @@ box-sizing: border-box;
     --color-filter: rgba(29, 42, 55, 0.8);
   }
 /* done setting light and dark theme */
-* {
+/* /* * {
     margin: 0;
     padding: 0;
+  } */
+
+
+  body {
+    font-family: 'Arial', sans-serif;
+    /* overflow: hidden; Prevent body from scrolling */
+} 
+  .background-image {
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
 
-
-
-form {
-    background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent white background */
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    text-align: center;
+  form {
+  background-color: rgba(170, 207, 160, 0.644); /* Semi-transparent white background */
+  padding: 25px; /* Reduced padding */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: rgba(245, 250, 243, 0.4);
+  text-align: center;
+  width: 50%; /* Adjust the width as needed */
+  margin-right: auto; /* Move form to the left by setting right margin to auto */
+  margin-left: 0; /* Reset left margin */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-input[type="file"] {
+  input[type="file"] {
     margin-bottom: 10px;
     padding: 10px;
-    border: 1px solid #ccc;
     border-radius: 4px;
+    display: block;
+    margin: 0 auto 10px; /* Margin for bottom, 0 for top/bottom, auto for left/right */
+    background-color: transparent; /* Transparent background */
+    border: 2px solid transparent; /* Transparent border */
+    color: #333; /* Text color */
+    transition: border-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+    font-size:17.5px;
+    font-weight: bold;  
+    border-radius:5px;
+  }
+  /* Hover effect */
+  input[type="file"]:hover {
+border-color: #007bff; /* Change border color on hover */
+border-width: 5px; 
+color: #010509; /* Change text color on hover */
 }
-
-input[type="text"] {
+  input[type="text"] {
     margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    width: 70%;
-}
+    padding: 1px;
+    border: 1px solid #ecd7d7;
+    border-radius: 5px;
+    width: 50%;
+    height: 43px;
+  }
 
-button {
+  button {
     padding: 10px 20px;
     background-color: #4CAF50;
     color: #fff;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-}
+  }
+  .ds{
+    font-size:80px;
+    color:rgb(233, 244, 233);
+  }
 
-button:hover {
-    background-color: #45a049;
+  button:hover {
+    background-color: rgba(11, 100, 244, 0.916);
+  }
+  .container {
+  display: flex;
+  justify-content: flex-end;
 }
-
-.loading-icon {
+  .loading-icon {
     display: none;
-}
+  } 
 html{
     scroll-behavior: smooth;
 }
