@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "directed-line-406208",
+  "private_key_id": "0c473cf05104ad54b23792fb5674e6402e7a7055",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC0aDHfuVbyyA3w\n/JkSzau3Py/+gIniRQna6bVJdcD7vBwBqspwTvJhuvE38tnnvD8jJnkuXlGBD2/+\n9VezJWiAYHy4oYNsLblY1YwQIgaf/uGUulaqBUNfwXAciV4L84IJgpl7et5o+hFx\nDn541AzcTV21iVLEjntMiG8F3OVULsD3YEuoeJPgXIvl6dBST9Wck7t5/xjhjetr\nQjRe78uxzY6tPC86m7m60h++Uh7R3FxmHp2tsbrkR7jm0HUEQJtR+ceXtEOgc+Q8\nN1mA5wS90XJ2PfyYiCXG6G68pz2Ajc+aCVpk61G7xxP9wjces9ujEOWfb4i5DSQ4\n0qfP7edLAgMBAAECggEABXiZdpr0z5UQkyvd6ouRNxPz/Shhxhpo45ot1MX87cV1\nJfnLfN9wC1WzhgpX4Ga9lW/Pwf+7Qgo5T8aZ+8VZJ3eFoMXJKgky80Y6oqydfdGp\nfqyt/yb8tZU0tLDXyM4ANhCfXfbKcu2OhNq3LCvmHfI8ssow1+QoShhjIY7i54wc\nWSgg81lv99nF5SwTDjJOCu1QSy8LRlRLhVR7OcPUyAE1k0mEdm7gIYdm33teKDUM\ncyzzsEkot1yFBFsGFRHUj7BBmSR7hnMpLR6uhsE9UL9eCXVlEM0mr5+aXVRhobdh\n4UdwXaO0HMaqEAg8SW8a200a88OQEQFVIASM8QJcDQKBgQDqsb5NykCbXYxQB5hb\ntuUPbNzYsqvdZ9EWUHqwWfvxxgyeMMCF2QLWm642qso4XyFwY9ljoWeW6DtaPBtf\nqEOH4cEg0j2pkHomMc1M93nw4LN/EtDNqtdvod79b7lYiVSn4wOift7g5IkHO3C4\nKUEHIFFzavBN/jwEqGklKi05XQKBgQDEyNLb/sGfVz8J9qqPK6HfNYd1CXzG/Non\npww53D4qcfhAN493J1VzEtXNhui+YVCjNIRb1CZ2GFrkYe1hFawa6BkOqmdhlxFt\nHW5o1XOCQFZ1ofhaoezM+OJJkqVA2wNd203lGV5UDjTcbo6CKDYwnlEoB7w9jgF5\nCdpIzmqQxwKBgDMPLGncIKYsegRHQrxhVABBHOMALCflGDYUmDyZtxhokAIydRAp\noFZ0VDiMe6Y7/BhpgLgOO203ZQJCpWnwP5Dmao/rbYLgbdK1bwbZqGvhVuvEeizk\niC4/NzZIAjji18oWt4m4tGCVF8K9Cc7nGsCkJVRI5bLyJriUsxtky6X5AoGBALTS\niJeor8i4Re/k3nMyt8rAiFkuP58l51x6boyYafNcyK5Rn53w4d8c1qPGLQYLrCpb\n7qfm+PSZiqPDrHoCjSQoVCYaxWZyh4vJeJQSV9K/RfNPw0Oc+Vib9mt+uiUvWxea\nlihHuFrqtv47BO5q/uiMAa0T9pBldcsAF7nBG0EvAoGAY0qQDR/SNqRfptukuK4w\n8zomvD53HzaQOifmUDsx23xzomD2bqUMrihJKRGGlZJruV0SmnNGfKVG4m2Eahz6\nNkMAdyqBfK5Ay1AdGdS3cDpXbZsEB5hTewQkYSksXAJoLZ2AIPqy4cob6AWC7Wco\n6ASOrMCiEYhz4XDhS+71s9I=\n-----END PRIVATE KEY-----\n",
+  "client_email": "techtrixmk@directed-line-406208.iam.gserviceaccount.com",
+  "client_id": "104348272413942138553",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/techtrixmk%40directed-line-406208.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
