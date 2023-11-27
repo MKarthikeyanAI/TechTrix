@@ -27,10 +27,38 @@
     <!-- icon for TechTrix -->
     <link rel="shortcut icon" href="/image/companylogo.jpg" type="img/svg">
     <title>TechTrix</title>
+    <style>
+    .loader {
+      border: 16px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 16px solid #3498db;
+      width: 120px;
+      height: 120px;
+      -webkit-animation: spin 2s linear infinite; /* Safari */
+      animation: spin 2s linear infinite;
+    }
+    
+    /* Safari */
+    @-webkit-keyframes spin {
+      0% { -webkit-transform: rotate(0deg); }
+      100% { -webkit-transform: rotate(360deg); }
+    }
+    
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    
+    /* Hide loader initially */
+    .loader {
+      display: none;
+    }
+    </style>
   </head>
   <body>
     <!-- start fixed header  -->
       <header class="fixed-top" id="head">
+
           <div class="container-md p-0">
             <nav class="navbar navbar-expand-lg navbar-dark">
               <img src= "/image/cic.jpg" alt="Description of your image">
@@ -112,9 +140,10 @@
               <div class="loading-icon">
                 <span>Generating Link...</span>
               </div>
+              <div class="loader"></div>
             </div>
           </div>
-          
+
           <!-- <div class="carousel-item" data-interval="3000">
             <div class="d-block w-100 image-height" style="background-image: url(/image/b2.jpg);">
             </div>
@@ -594,6 +623,17 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
 <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'></script><script  src="./script.js"></script> -->
 <script src="/scripts/index.js"></script>
+<script>
+  // Show loader when the page starts loading
+  document.onreadystatechange = function () {
+    if (document.readyState === 'loading') {
+      document.querySelector('.loader').style.display = 'block';
+    } else {
+      // Hide loader when the page finishes loading
+      document.querySelector('.loader').style.display = 'none';
+    }
+  };
+  </script>
 <script>
 	jQuery("#carousel").owlCarousel({
   items: 1,
