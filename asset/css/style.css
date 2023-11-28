@@ -230,6 +230,9 @@ body{
 }
 
 /* start header  */
+.bold-textone{
+    font-size:50px;
+}
 header{
     background-color: rgba(0, 0, 0, 0);
     font-family: bolding;
