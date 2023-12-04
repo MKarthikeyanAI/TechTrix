@@ -42,7 +42,9 @@ app.post('/upload', upload.single('file'), (req, res) => {
   if (fileExtension !== '.pdf' && fileExtension !== '.docx') {
     return res.status(400).send('Unsupported file format. Please upload a PDF or Word file.');
   }
-
+  if (file.size > 5 * 1024 * 1024) {
+    return res.status(400).send('File size exceeds the limit of 5MB.');
+  }
   const fileName = `${Date.now()}_${file.originalname}`;
 
   // Create a stream to upload the file to Google Cloud Storage
