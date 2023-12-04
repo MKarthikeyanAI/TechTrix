@@ -43,7 +43,7 @@ app.post('/upload', upload.single('file'), (req, res) => {
     return res.status(400).send('Unsupported file format. Please upload a PDF or Word file.');
   }
   if (file.size > 5 * 1024 * 1024) {
-    return res.status(400).send('File size exceeds the limit of 5MB.');
+    return res.status(400).send('File size exceeds the limit.Upload File less than 5MB');
   }
   const fileName = `${Date.now()}_${file.originalname}`;
 
