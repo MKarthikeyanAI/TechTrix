@@ -128,19 +128,17 @@
             <div class="carousel-caption section-carousel container d-md-block">
               <h1 class="animate__animated animate__flipInX animate__delay-1s">
                 Welcome To Our Company</h1>
-                <p class="ds">Upload your resume to obtain your Public Resume URL</p>
-              <form id="uploadForm" action="/upload" method="post" enctype="multipart/form-data">
-                <input type="file" name="file" />
-                <button type="submit">Upload File</button>
-              </form>
-              <div>
-                <input type="text" id="fileLink" readonly/>
-                <button onclick="copyToClipboard()">Copy Link</button>
-              </div>
-              <div class="loading-icon">
-                <span>Generating Link...</span>
-              </div>
-              <div class="loader"></div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
             </div>
           </div>
 
@@ -662,39 +660,6 @@
   //   }
   // }
 });
-</script>
-<script>
-  function copyToClipboard() {
-    const fileLinkElement = document.getElementById('fileLink');
-    fileLinkElement.select();
-    document.execCommand('copy');
-    // alert('Link copied to clipboard!');
-  }
-
-  document.getElementById('uploadForm').addEventListener('submit', function (event) {
-    event.preventDefault();
-
-    const form = event.target;
-    const formData = new FormData(form);
-
-    const loadingIcon = document.querySelector('.loading-icon');
-    loadingIcon.style.display = 'block';
-
-    fetch(form.action, {
-      method: form.method,
-      body: formData,
-    })
-    .then(response => response.text())
-    .then(link => {
-      const fileLinkElement = document.getElementById('fileLink');
-      fileLinkElement.value = link;
-      loadingIcon.style.display = 'none';
-    })
-    .catch(error => {
-      console.error('Error uploading file:', error);
-      loadingIcon.style.display = 'none';
-    });
-  });
 </script>
     <!-- jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
